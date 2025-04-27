@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Gifts of the holyspirit</h2>
+    <ol type="I">
+        <li>Love</li>
+        <li>Peace</li>
+        <li>Joy</li>
+        <li>Patience</li>
+        <li>Kindness</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>Beautiful Scenery</h2>
+    <img src="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg" alt="Beautiful Landscape" width="600">
+
+    <!-- Table of Contacts -->
+    <h2>Contact List</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Elm Street</td>
+                <td>+1234567890</td>
+                <td>john@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Oak Avenue</td>
+                <td>+1987654321</td>
+                <td>jane@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Bob Johnson</td>
+                <td>789 Pine Road</td>
+                <td>+1122334455</td>
+                <td>bob@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Alice Williams</td>
+                <td>321 Maple Lane</td>
+                <td>+1223344556</td>
+                <td>alice@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Chris Evans</td>
+                <td>654 Spruce Blvd</td>
+                <td>+1334455667</td>
+                <td>chris@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+ <!-- Registration Form -->
+ <h2>Registration Form</h2>
+ <form action="#" method="post">
+     
+     <!-- Name Field -->
+     <label for="name">Full Name:</label><br>
+     <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+     
+     <!-- Email Field -->
+     <label for="email">Email:</label><br>
+     <input type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
+     
+     <!-- Password Field -->
+     <label for="password">Password:</label><br>
+     <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="6"><br><br>
+     
+     <!-- Date Field -->
+     <label for="dob">Date of Birth:</label><br>
+     <input type="date" id="dob" name="dob" required><br><br>
+     
+     <!-- Dropdown Menu -->
+     <label for="country">Select your country:</label><br>
+     <select id="country" name="country" required>
+         <option value="">--Select Country--</option>
+         <option value="usa">United States</option>
+         <option value="canada">Canada</option>
+         <option value="uk">United Kingdom</option>
+         <option value="australia">Australia</option>
+     </select><br><br>
+     
+     <!-- Radio Buttons -->
+     <p>Gender:</p>
+     <input type="radio" id="male" name="gender" value="male" required>
+     <label for="male">Male</label><br>
+     
+     <input type="radio" id="female" name="gender" value="female" required>
+     <label for="female">Female</label><br>
+
+     <input type="radio" id="other" name="gender" value="other" required>
+     <label for="other">Other</label><br><br>
+     
+     <!-- Checkboxes -->
+     <p>Interests:</p>
+     <input type="checkbox" id="sports" name="interests" value="sports">
+     <label for="sports">Sports</label><br>
+     
+     <input type="checkbox" id="music" name="interests" value="music">
+     <label for="music">Music</label><br>
+
+     <input type="checkbox" id="travel" name="interests" value="travel">
+     <label for="travel">Travel</label><br><br>
+
+     <!-- Submit Button -->
+     <input type="submit" value="Register">
+     
+ </form>
+</body>
+</html>
